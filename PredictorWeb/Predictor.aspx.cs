@@ -65,6 +65,7 @@ namespace PredictorWeb
             int imgCount = 0;
             int idxY = 0;
             int idxX = 0;
+            display.Clear();
             for (idxY = 0; idxY < 6; idxY++)//Y軸迴圈
             {
                 for (idxX = 0; idxX < 8; idxX++)//X軸迴圈
